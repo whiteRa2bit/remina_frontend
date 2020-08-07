@@ -25,7 +25,7 @@ class ItemPage extends Component {
             link: this.state.link
         };
         console.log(data);
-        fetch(`${process.env.REACT_APP_API_URL}/add_item`, {
+        fetch(process.env.REACT_APP_ADD_ITEM_URL, {
             method: 'POST',
             mode: 'no-cors',
             headers: {
