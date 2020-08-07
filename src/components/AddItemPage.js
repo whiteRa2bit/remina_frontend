@@ -6,13 +6,13 @@ import Button from '@material-ui/core/Button';
 
 
 
-class ItemPage extends Component {
+class AddItemPage extends Component {
     state = {
         name: '',
         type: '',
         rate: '',
         link: '',
-    }
+    };
     handleChange = (event) => {
         const { target: { name, value } } = event;
         this.setState({[name]: value});
@@ -93,4 +93,4 @@ class ItemPage extends Component {
     }
 }
 
-export default withRouter(ItemPage)
+export default withRouter(AddItemPage)
