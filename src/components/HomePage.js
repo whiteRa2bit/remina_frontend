@@ -3,11 +3,11 @@ import '../styles/index.css';
 import { withRouter } from "react-router-dom";
 
 const HomePage = () => {
-    return (
-        <div>
-            <p> HomePage</p>
-        </div>
-    )
+  return (
+    <div>
+      <p> HomePage</p>
+    </div>
+  )
 }
 
 export default withRouter(HomePage)
