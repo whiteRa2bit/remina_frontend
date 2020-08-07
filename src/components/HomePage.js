@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 const HomePage = () => {
     return (
         <div>
-        <p> HomePage</p>
+            <p> HomePage</p>
         </div>
     )
 }
